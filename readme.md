@@ -19,7 +19,7 @@ I'll be writing about this in a, I hope, short and accessible book so check back
 
 I'm a keen cyclist and use Strava to bring all my data together but found it was missing a couple of things I wanted to analyse so have based this website around their API but if you don't have a Strava account I've included guest support that just makes use of some embedded demo data but is still accessed via a HTTP API.
 
-Strava doesn't support CORS so I've also written a small (Strava API Proxy)[https://github.com/JamesRandall/StravaAPIProxy] and that's supplied preconfigured in the project. To use it with demo data you don't need to do any configuration but to use it directly against Strava itself you will need to create a Strava application and supply the client ID and key. The instructions for that are here [https://github.com/JamesRandall/StravaAPIProxy].
+Strava doesn't support CORS so I've also written a small [Strava API Proxy](https://github.com/JamesRandall/StravaAPIProxy) and that's supplied preconfigured in the project. To use it with demo data you don't need to do any configuration but to use it directly against Strava itself you will need to create a Strava application and supply the client ID and key. The [instructions for that are here] (https://github.com/JamesRandall/StravaAPIProxy).
 
 ## Getting Started
 
@@ -36,4 +36,4 @@ Assuming you've already cloned this repo you can launch the website locally by f
 
 ## Questions and Feedback
 
-I'd love to hear what you think and the best way to reach me is to log an issue here or over on twitter at (@azuretrenches)[https://twitter.com/azuretrenches].
+I'd love to hear what you think and the best way to reach me is to log an issue here or over on twitter at [@azuretrenches](https://twitter.com/azuretrenches).
