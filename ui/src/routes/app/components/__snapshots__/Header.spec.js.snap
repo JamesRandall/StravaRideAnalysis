@@ -1,0 +1,70 @@
+exports[`components <Header /> renders with a sign out link when authenticated 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+  staticTop={true}>
+  <NavbarHeader>
+    <NavbarBrand>
+      <Link
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/dashboard">
+        <span
+          className="prefixlogocolor">
+          ride
+        </span>
+        <span
+          className="postfixlogocolor">
+          analysis
+        </span>
+      </Link>
+    </NavbarBrand>
+    <NavbarToggle />
+  </NavbarHeader>
+  <NavbarCollapse>
+    <Nav
+      bsClass="nav"
+      justified={false}
+      pullLeft={false}
+      pullRight={true}
+      stacked={false}>
+      <LinkContainer
+        action="push"
+        onlyActiveOnIndex={false}
+        to="/signOut">
+        <NavItem
+          active={false}
+          disabled={false}
+          eventKey={1}>
+          Sign Out
+        </NavItem>
+      </LinkContainer>
+    </Nav>
+  </NavbarCollapse>
+</Uncontrolled(Navbar)>
+`;
+
+exports[`components <Header /> renders with no sign out link when unauthenticated 1`] = `
+<Uncontrolled(Navbar)
+  bsStyle="default"
+  staticTop={true}>
+  <NavbarHeader>
+    <NavbarBrand>
+      <Link
+        onlyActiveOnIndex={false}
+        style={Object {}}
+        to="/">
+        <span
+          className="prefixlogocolor">
+          ride
+        </span>
+        <span
+          className="postfixlogocolor">
+          analysis
+        </span>
+      </Link>
+    </NavbarBrand>
+    <NavbarToggle />
+  </NavbarHeader>
+  <NavbarCollapse />
+</Uncontrolled(Navbar)>
+`;

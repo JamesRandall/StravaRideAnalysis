@@ -1,0 +1,11 @@
+exports[`components <ChartTooltip /> renders as expected 1`] = `
+<Panel
+  bsClass="panel"
+  bsStyle="default"
+  defaultExpanded={false}>
+  hello world
+  : 
+  10
+  km
+</Panel>
+`;

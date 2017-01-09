@@ -1,0 +1,55 @@
+exports[`components <GetStarted /> renders as expected 1`] = `
+<Grid
+  bsClass="container"
+  className="seamless-banner"
+  componentClass="div"
+  fluid={true}
+  style={
+    Object {
+      "backgroundImage": "url(\'wheel.jpg\')",
+      "backgroundSize": "cover",
+    }
+  }>
+  <Grid
+    bsClass="container"
+    componentClass="div"
+    fluid={false}>
+    <Row
+      bsClass="row"
+      className="m-t-2 m-b-2"
+      componentClass="div">
+      <Col
+        bsClass="col"
+        componentClass="div"
+        xs={3} />
+      <Col
+        bsClass="col"
+        componentClass="div"
+        xs={6}>
+        <Panel
+          bsClass="panel"
+          bsStyle="default"
+          defaultExpanded={false}>
+          <div
+            className="m-b-2">
+            To analyse your rides please sign in to Strava.
+          </div>
+          <Component
+            className="m-t-2" />
+          <Connect(withRouter(Component)) />
+          <div
+            className="m-t-2">
+            <em>
+              If you don\'t have a Strava account and want to see a demo just use the guest access button - you won\'t be asked to create an account or enter any personal details.
+            </em>
+          </div>
+        </Panel>
+      </Col>
+      <Col
+        bsClass="col"
+        componentClass="div"
+        xs={6} />
+    </Row>
+  </Grid>
+</Grid>
+`;

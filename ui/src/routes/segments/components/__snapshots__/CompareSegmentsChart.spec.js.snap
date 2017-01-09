@@ -1,0 +1,119 @@
+exports[`components <CompareSegmentsChart /> renders as expected 1`] = `
+<div>
+  <ResponsiveContainer
+    debounce={0}
+    height="100%"
+    minHeight={300}
+    width="100%">
+    <AnimationDecorator(ComposedDataDecorator(BarChart))
+      data={Array []}
+      layout="horizontal"
+      margin={
+        Object {
+          "bottom": 5,
+          "left": 5,
+          "right": 5,
+          "top": 5,
+        }
+      }
+      stackOffset="none">
+      <YAxis
+        allowDataOverflow={false}
+        allowDecimals={true}
+        domain={
+          Array [
+            0,
+            "auto",
+          ]
+        }
+        height={0}
+        hide={false}
+        orientation="left"
+        padding={
+          Object {
+            "bottom": 0,
+            "top": 0,
+          }
+        }
+        scale="auto"
+        tickCount={5}
+        type="number"
+        width={60}
+        yAxisId={0} />
+      <XAxis
+        allowDataOverflow={false}
+        allowDecimals={true}
+        domain={
+          Array [
+            0,
+            "auto",
+          ]
+        }
+        height={30}
+        hide={false}
+        orientation="bottom"
+        padding={
+          Object {
+            "left": 0,
+            "right": 0,
+          }
+        }
+        scale="auto"
+        tick={false}
+        tickCount={5}
+        type="category"
+        width={0}
+        xAxisId={0} />
+      <Legend
+        align="center"
+        iconSize={14}
+        layout="horizontal"
+        verticalAlign="bottom" />
+      <Bar
+        activeDot={
+          Object {
+            "r": 8,
+          }
+        }
+        animationBegin={0}
+        animationDuration={1500}
+        animationEasing="ease"
+        data={Array []}
+        dataKey="actual"
+        fill="rgba(4,117,111,0.2)"
+        isAnimationActive={true}
+        layout="vertical"
+        legendType="rect"
+        minPointSize={0}
+        onAnimationEnd={[Function]}
+        onAnimationStart={[Function]}
+        stroke="rgb(4,117,111)"
+        type="monotone"
+        xAxisId={0}
+        yAxisId={0} />
+      <Bar
+        activeDot={
+          Object {
+            "r": 8,
+          }
+        }
+        animationBegin={0}
+        animationDuration={1500}
+        animationEasing="ease"
+        data={Array []}
+        dataKey="best"
+        fill="rgba(217,0,0,0.2)"
+        isAnimationActive={true}
+        layout="vertical"
+        legendType="rect"
+        minPointSize={0}
+        onAnimationEnd={[Function]}
+        onAnimationStart={[Function]}
+        stroke="rgb(217,0,0)"
+        type="monotone"
+        xAxisId={0}
+        yAxisId={0} />
+    </AnimationDecorator(ComposedDataDecorator(BarChart))>
+  </ResponsiveContainer>
+</div>
+`;

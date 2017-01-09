@@ -1,0 +1,12 @@
+exports[`components <SignInGuest /> renders as expected 1`] = `
+<Button
+  active={false}
+  block={true}
+  bsClass="btn"
+  bsSize="large"
+  bsStyle="default"
+  disabled={false}
+  onClick={[Function]}>
+  Guest Demo Access
+</Button>
+`;

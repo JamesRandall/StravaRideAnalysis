@@ -1,0 +1,48 @@
+exports[`components <CompareSegmentsTable /> renders as expected 1`] = `
+<Table
+  bordered={false}
+  bsClass="table"
+  condensed={false}
+  hover={false}
+  responsive={false}
+  striped={true}>
+  <thead>
+    <tr>
+      <th>
+        Segment
+      </th>
+      <th>
+        Ride Time (seconds)
+      </th>
+      <th>
+        Best Time (seconds)
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        Some Segment
+      </td>
+      <td />
+      <td />
+    </tr>
+    <tr>
+      <td>
+        Another segment
+      </td>
+      <td />
+      <td />
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <th>
+        Total
+      </th>
+      <th />
+      <th />
+    </tr>
+  </tfoot>
+</Table>
+`;

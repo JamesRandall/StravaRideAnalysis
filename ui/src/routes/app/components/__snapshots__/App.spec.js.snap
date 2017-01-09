@@ -1,0 +1,6 @@
+exports[`components <App /> renders as expected 1`] = `
+<div>
+  <Connect(Component) />
+  <Connect(InProgressBar) />
+</div>
+`;

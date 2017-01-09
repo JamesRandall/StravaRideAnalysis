@@ -1,0 +1,49 @@
+exports[`components <RouteProfile /> renders content when activity set 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}>
+  <Row
+    bsClass="row"
+    componentClass="div">
+    <Col
+      bsClass="col"
+      componentClass="div"
+      xs={12}>
+      <div>
+        <Component
+          activity={
+            Object {
+              "activityId": 1,
+            }
+          }
+          includeHyperlinks={false} />
+        <RouteProfileRendererHost
+          activity={
+            Object {
+              "activityId": 1,
+            }
+          } />
+      </div>
+    </Col>
+  </Row>
+</Grid>
+`;
+
+exports[`components <RouteProfile /> renders empty when no activity 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}>
+  <Row
+    bsClass="row"
+    componentClass="div">
+    <Col
+      bsClass="col"
+      componentClass="div"
+      xs={12}>
+      <div />
+    </Col>
+  </Row>
+</Grid>
+`;

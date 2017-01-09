@@ -1,0 +1,15 @@
+exports[`components <InProgressBar /> renders as expected 1`] = `
+<div
+  className="inprogresscontainer">
+  <div
+    className="inprogressanimate inprogressbase"
+    style={
+      Object {
+        "backgroundColor": "rgb(218,235,255)",
+        "height": "0.3em",
+        "position": "absolute",
+        "width": "25%",
+      }
+    } />
+</div>
+`;

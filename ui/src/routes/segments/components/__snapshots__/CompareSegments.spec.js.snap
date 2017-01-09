@@ -1,0 +1,43 @@
+exports[`components <CompareSegments /> renders content loaded 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}>
+  <Row
+    bsClass="row"
+    componentClass="div">
+    <Col
+      bsClass="col"
+      componentClass="div"
+      xs={12}>
+      <Component
+        activity={Object {}}
+        includeHyperlinks={false} />
+    </Col>
+  </Row>
+  <Row
+    bsClass="row"
+    componentClass="div">
+    <Col
+      bsClass="col"
+      componentClass="div"
+      xs={12}>
+      <CompareSegmentsChart
+        chartData={Array []} />
+    </Col>
+  </Row>
+  <Row
+    bsClass="row"
+    componentClass="div">
+    <Col
+      bsClass="col"
+      componentClass="div"
+      xs={12}>
+      <CompareSegmentsTable
+        tableData={Array []} />
+    </Col>
+  </Row>
+</Grid>
+`;
+
+exports[`components <CompareSegments /> renders empty when not loaded 1`] = `<div />`;

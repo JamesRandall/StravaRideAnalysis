@@ -1,0 +1,31 @@
+exports[`components <Dashboard /> renders as expected when loaded 1`] = `<div />`;
+
+exports[`components <Dashboard /> renders as expected when not loaded 1`] = `
+<Grid
+  bsClass="container"
+  componentClass="div"
+  fluid={false}>
+  <Row
+    bsClass="row"
+    componentClass="div">
+    <Col
+      bsClass="col"
+      componentClass="div"
+      sm={7}
+      xs={12}>
+      <Connect(Component)
+        moveNext={[Function]}
+        movePrevious={[Function]}
+        page={Array []}
+        pageSize={10} />
+    </Col>
+    <Col
+      bsClass="col"
+      componentClass="div"
+      sm={5}
+      xs={12}>
+      <Component />
+    </Col>
+  </Row>
+</Grid>
+`;

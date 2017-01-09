@@ -1,0 +1,196 @@
+exports[`components <WeekSummary /> renders as expected 1`] = `
+<Row
+  bsClass="row row-no-padding"
+  componentClass="div">
+  <Col
+    bsClass="col"
+    componentClass="div"
+    style={
+      Object {
+        "height": "100px",
+      }
+    }
+    xs={3}>
+    <div
+      style={
+        Object {
+          "display": "table",
+          "height": "100px",
+          "overflow": "hidden",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }>
+      <div
+        style={
+          Object {
+            "display": "table-cell",
+            "verticalAlign": "middle",
+          }
+        }>
+        16
+         km
+      </div>
+    </div>
+  </Col>
+  <Col
+    bsClass="col"
+    componentClass="div"
+    style={
+      Object {
+        "height": "100px",
+      }
+    }
+    xs={9}>
+    <div
+      className="m-r">
+      <ResponsiveContainer
+        debounce={0}
+        height="100%"
+        minHeight={100}
+        width="100%">
+        <AnimationDecorator(ComposedDataDecorator(AreaChart))
+          data={
+            Array [
+              Object {
+                "distance": 1,
+                "label": "January",
+              },
+              Object {
+                "distance": 2,
+                "label": "February",
+              },
+              Object {
+                "distance": 3,
+                "label": "March",
+              },
+              Object {
+                "distance": 4,
+                "label": "April",
+              },
+              Object {
+                "distance": 5,
+                "label": "May",
+              },
+              Object {
+                "distance": 6,
+                "label": "June",
+              },
+              Object {
+                "distance": 7,
+                "label": "July",
+              },
+              Object {
+                "distance": 12,
+                "label": "August",
+              },
+              Object {
+                "distance": 13,
+                "label": "September",
+              },
+              Object {
+                "distance": 14,
+                "label": "October",
+              },
+              Object {
+                "distance": 15,
+                "label": "November",
+              },
+              Object {
+                "distance": 16,
+                "label": "December",
+              },
+            ]
+          }
+          layout="horizontal"
+          margin={
+            Object {
+              "bottom": 5,
+              "left": 5,
+              "right": 5,
+              "top": 5,
+            }
+          }
+          stackOffset="none">
+          <Tooltip
+            active={false}
+            animationDuration={400}
+            animationEasing="ease"
+            content={<ChartTooltip />}
+            coordinate={
+              Object {
+                "x": 0,
+                "y": 0,
+              }
+            }
+            cursor={true}
+            cursorStyle={Object {}}
+            isAnimationActive={true}
+            itemSorter={[Function]}
+            itemStyle={Object {}}
+            labelStyle={Object {}}
+            offset={10}
+            separator=" : "
+            viewBox={
+              Object {
+                "x1": 0,
+                "x2": 0,
+                "y1": 0,
+                "y2": 0,
+              }
+            }
+            wrapperStyle={Object {}} />
+          <XAxis
+            allowDataOverflow={false}
+            allowDecimals={true}
+            axisLine={false}
+            dataKey="label"
+            domain={
+              Array [
+                0,
+                "auto",
+              ]
+            }
+            height={30}
+            hide={false}
+            orientation="bottom"
+            padding={
+              Object {
+                "left": 0,
+                "right": 0,
+              }
+            }
+            scale="auto"
+            tickCount={5}
+            tickFormatter={[Function]}
+            tickLine={false}
+            type="category"
+            width={0}
+            xAxisId={0} />
+          <Area
+            activeDot={true}
+            animationBegin={0}
+            animationDuration={1500}
+            animationEasing="ease"
+            connectNulls={false}
+            curve={true}
+            dataKey="distance"
+            dot={false}
+            fill="rgba(217,0,0,0.2)"
+            fillOpacity={0.6}
+            isAnimationActive={true}
+            label={false}
+            legendType="line"
+            onAnimationEnd={[Function]}
+            onAnimationStart={[Function]}
+            points={Array []}
+            stroke="rgba(217,0,0,1)"
+            type="monotone"
+            xAxisId={0}
+            yAxisId={0} />
+        </AnimationDecorator(ComposedDataDecorator(AreaChart))>
+      </ResponsiveContainer>
+    </div>
+  </Col>
+</Row>
+`;

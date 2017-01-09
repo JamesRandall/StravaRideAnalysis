@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "engines": {
+    "node": "7.0.0"
+  }, 
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.1",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "express-http-proxy": "^0.10.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "node-fetch": "^1.6.3",
+    "serve-favicon": "~2.3.0"
+  }
+}

@@ -1,0 +1,167 @@
+exports[`components <WeekSummary /> renders as expected 1`] = `
+<Row
+  bsClass="row row-no-padding"
+  componentClass="div">
+  <Col
+    bsClass="col"
+    componentClass="div"
+    style={
+      Object {
+        "height": "100px",
+      }
+    }
+    xs={3}>
+    <div
+      style={
+        Object {
+          "display": "table",
+          "height": "100px",
+          "overflow": "hidden",
+          "textAlign": "center",
+          "width": "100%",
+        }
+      }>
+      <div
+        style={
+          Object {
+            "display": "table-cell",
+            "verticalAlign": "middle",
+          }
+        }>
+        28
+         km
+      </div>
+    </div>
+  </Col>
+  <Col
+    bsClass="col"
+    componentClass="div"
+    style={
+      Object {
+        "height": "100px",
+      }
+    }
+    xs={9}>
+    <ResponsiveContainer
+      debounce={0}
+      height="100%"
+      minHeight={100}
+      width="100%">
+      <AnimationDecorator(ComposedDataDecorator(BarChart))
+        data={
+          Array [
+            Object {
+              "distance": 1,
+              "label": "Monday",
+            },
+            Object {
+              "distance": 2,
+              "label": "Tuesday",
+            },
+            Object {
+              "distance": 3,
+              "label": "Wednesday",
+            },
+            Object {
+              "distance": 4,
+              "label": "Thursday",
+            },
+            Object {
+              "distance": 5,
+              "label": "Friday",
+            },
+            Object {
+              "distance": 6,
+              "label": "Saturday",
+            },
+            Object {
+              "distance": 7,
+              "label": "Sunday",
+            },
+          ]
+        }
+        layout="horizontal"
+        margin={
+          Object {
+            "bottom": 5,
+            "left": 5,
+            "right": 5,
+            "top": 5,
+          }
+        }
+        stackOffset="none">
+        <XAxis
+          allowDataOverflow={false}
+          allowDecimals={true}
+          axisLine={false}
+          dataKey="label"
+          domain={
+            Array [
+              0,
+              "auto",
+            ]
+          }
+          height={30}
+          hide={false}
+          orientation="bottom"
+          padding={
+            Object {
+              "left": 0,
+              "right": 0,
+            }
+          }
+          scale="auto"
+          tickCount={5}
+          tickFormatter={[Function]}
+          tickLine={false}
+          type="category"
+          width={0}
+          xAxisId={0} />
+        <Tooltip
+          active={false}
+          animationDuration={400}
+          animationEasing="ease"
+          content={<ChartTooltip />}
+          coordinate={
+            Object {
+              "x": 0,
+              "y": 0,
+            }
+          }
+          cursor={true}
+          cursorStyle={Object {}}
+          isAnimationActive={true}
+          itemSorter={[Function]}
+          itemStyle={Object {}}
+          labelStyle={Object {}}
+          offset={10}
+          separator=" : "
+          viewBox={
+            Object {
+              "x1": 0,
+              "x2": 0,
+              "y1": 0,
+              "y2": 0,
+            }
+          }
+          wrapperStyle={Object {}} />
+        <Bar
+          animationBegin={0}
+          animationDuration={1500}
+          animationEasing="ease"
+          data={Array []}
+          dataKey="distance"
+          fill="rgb(4,117,111)"
+          isAnimationActive={true}
+          layout="vertical"
+          legendType="rect"
+          minPointSize={0}
+          onAnimationEnd={[Function]}
+          onAnimationStart={[Function]}
+          xAxisId={0}
+          yAxisId={0} />
+      </AnimationDecorator(ComposedDataDecorator(BarChart))>
+    </ResponsiveContainer>
+  </Col>
+</Row>
+`;

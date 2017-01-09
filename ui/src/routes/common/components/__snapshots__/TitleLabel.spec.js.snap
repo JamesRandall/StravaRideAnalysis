@@ -1,0 +1,14 @@
+exports[`components <TitleLabel /> renders as expected 1`] = `
+<p
+  className="aclass">
+  <span
+    className="title-label">
+    Hello World
+  </span>
+  <span
+    className="subtitle-label">
+     - 
+    Too
+  </span>
+</p>
+`;

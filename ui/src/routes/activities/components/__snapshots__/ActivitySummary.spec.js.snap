@@ -1,0 +1,39 @@
+exports[`components <ActivitySummary /> renders as expected 1`] = `
+<div>
+  <h3
+    className="m-t-0">
+    History
+  </h3>
+  <div
+    className="panel panel-default"
+    id={undefined}>
+    <div
+      className="panel-body">
+      <p
+        className={undefined}>
+        <span
+          className="title-label">
+          This Week
+        </span>
+      </p>
+      <div>
+        <div>
+          Week Summary
+        </div>
+      </div>
+      <p
+        className="m-t-2">
+        <span
+          className="title-label">
+          This Year
+        </span>
+      </p>
+      <div>
+        <div>
+          Year Summary
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

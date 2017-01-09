@@ -1,0 +1,12 @@
+exports[`components <SignInButton /> renders as expected 1`] = `
+<Button
+  active={false}
+  block={true}
+  bsClass="btn"
+  bsSize="large"
+  bsStyle="default"
+  disabled={false}
+  href="https://www.strava.com/oauth/authorize?client_id=12969&response_type=code&redirect_uri=http://localhost:3000/tokenresponse&approval_prompt=auto">
+  Sign In With Strava
+</Button>
+`;
